@@ -4,7 +4,6 @@ const carrito = recuperarCarrito();
 const carritoContainer = document.getElementById("productosCarrito");
 const btnVaciarCarrito = document.getElementById("vaciarCarrito");
 
-//<img src="${instrumento.img}" alt="Nombre del producto">
 function generarProductCardsHTML(instrumento) {
   return `<div class="productCard">
                 <div class="cardImg">
