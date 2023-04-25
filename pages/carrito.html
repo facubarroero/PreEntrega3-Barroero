@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="js/products.js"></script>
+    <script defer src="../js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <title>Carrito</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="up">
+            <h1>MusicStore</h1>
+            <button class="botonVolver"><a href="../index.html">Volver</a></button>
+        </div>
+    </header>
+
+    <div class="carritoContainer" id="carritoContainer">
+        <h2>Carrito</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="productosCarrito">
+                
+            </tbody>
+            <tfoot>
+                <tr class="totalCarrito" id="totalCarrito">
+                    <td>Total:</td>
+                    <td>$<span id="totalCarrito">0.00</span></td>
+                </tr>
+                <tr class="vaciarContainer" id="vaciarContainer">
+                    <td class="vaciarContainer">
+                        <button onclick="vaciarCarrito()" class="vaciarCarrito" id="vaciarCarrito">Vaciar carrito</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <footer class="footer">
+        <h2>Alumno: Barroero Facundo</h2>
+        <h2>Tercera PreEntrega del curso de Javasacript</h2>
+    </footer>
+</body>
+
+</html>

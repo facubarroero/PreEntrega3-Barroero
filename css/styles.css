@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+header{
+    background-color: #ffe600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 0.8rem;
+    gap: 0.5rem;
+}
+
+.up h1{
+    color: #212121;
+}
+
+.up .botonCarrito{
+    padding: 0.5rem;
+    background-color: #000000;
+    box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.up .botonVolver{
+  padding: 0.5rem;
+  background-color: #000000;
+  box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  border-radius: 8px;
+  color: aliceblue;
+}
+
+.buscar input{
+    background-color: #828282;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+    text-align: center;
+}
+
+.buscar input::placeholder{
+  color: #000000;
+}
+
+.generalContainer{
+    background-color: #828282;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carritoContainer{
+  background-color: #828282;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productCard {
+  background-color: #757575;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.37);
+  -webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.37);
+  height: 21rem;
+  width: 15rem;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardImg{
+  height: 13rem;
+  width: 10rem;
+}
+
+.cardImg img {
+  height: 100%;
+  width: 100%;
+}
+
+.cardName h3 {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.cardType{
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.cardBtn {
+  background-color: #ffe600;
+  box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btnRemove{
+  background-color: #ffe600;
+  box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.52);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #FFEB3B;
+  height: 150px;
+  bottom: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tfoot{
+  align-items: center;
+}
+
+.vaciarCarrito:hover {
+  background-color: #d32f2f;
+}
+
+.vaciarCarrito {
+  background-color: #000000;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
